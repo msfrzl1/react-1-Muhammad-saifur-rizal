@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: end;
+  gap: 1.5rem;
+  padding: 1rem;
+  border-bottom: 1px solid white;
+}
+
+.navbar-list li {
+  border: 1px solid white;
+  border-radius: 5px;
+  list-style: none;
+  padding: 0.8rem;
+  color: white;
+}
+
+.navbar-list li:hover {
+  background-color: grey;
+}
+
+.banner {
+  border-bottom: 1px solid white;
+}
+
+.banner img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.footer {
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 1rem;
+  font-size: small;
+}
